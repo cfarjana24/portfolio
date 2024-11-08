@@ -1,0 +1,60 @@
+/* styles.css */
+
+/* Navbar customization */
+.navbar {
+    background-color: #0f0e0e;
+}
+
+.nav-link {
+    color: #fff;
+}
+
+.nav-link:hover {
+    color: #ccc;
+}
+
+/* Hero section styling */
+.bg-dark {
+    background-color: #0d67c2 !important;
+}
+.tr{
+ background-color: antiquewhite;
+}
+
+section {
+    padding: 60px 0;
+
+* Skills section */
+#skills h3 {
+    margin-bottom: 20px;
+}
+}
+/* Project cards */
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+footer {
+    background-color: #f8f9fa;
+    color: #333;
+}
+/* Responsive font size for small devices */
+@media (max-width: 768px) {
+    h1, h2, h3 {
+        font-size: 1.5rem;
+    }
+    .navbar-brand {
+        font-size: 1.25rem;
+    }
+}
+/* Example of a Fade-in Animation */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.fade-in {
+    animation: fadeIn 2s ease-in;
+}
+

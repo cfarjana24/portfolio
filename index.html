@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Meta Tags for SEO -->
+<meta name="description" content="Portfolio website of [Your Name], a web developer specializing in front-end and back-end development.">
+<meta name="keywords" content="Web Developer, Portfolio, HTML, CSS, JavaScript, Projects">
+<meta name="author" content="[Your Name]">
+<title>[Farjana] | Web Developer Portfolio</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">My Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="Home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="About.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <img src="Img/peoject/portfolio.png" alt="Screenshot of Project 1" loading="lazy">
+        <div class="container">
+            <h1>Hi, I'm FARJANA</h1>
+            
+            <a href="#projects" class="btn btn-primary btn-lg">View My Work</a>
+        </div>
+    </section>
+    <!-- About Me Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <img src="Img/peoject/download.jpg" alt="Screenshot of Project 2">
+            <h2>About Me</h2>
+            <p>I'm a passionate web developer specializing in front-end and back-end development.</p> I love creating interactive and responsive websites using modern web technologies.</p>
+        </div>
+    </section>
+    <!-- Skills Section -->
+     <tr>
+    <section id="skills" class="py-5 bg-light">
+        <div class="container">
+            <img src="Img/peoject/cp-1.jpeg" alt="Paris"  class="text-center"">
+            <h2>Skills</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>Front-end</h3>
+                    <p>HTML, CSS, JavaScript, Bootstrap, React</p>
+                </div>
+                <div class="col-md-4">
+                    <h3>Back-end</h3>
+                    <p>Node.js, Express.js, PHP, Python</p>
+                </div>
+                <div class="col-md-4">
+                    <h3>Tools</h3>
+                    <p>Git, Webpack, Docker</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</tr>
+    <!-- Projects Section -->
+    <section id="projects" class="py-5">
+        <div class="container">
+            <h2>My Projects</h2>
+            <div class="row">
+                 <!-- Project 1 -->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="Img/peoject/project-1.jpeg" alt="Screenshot of Project 1" loading="lazy">
+                        <div class="card-body">
+                            <h5 class="card-title">Project 1</h5>
+                            <p class="card-text">Depends on the type of interviewer you are looking to impress:
+
+                                If you’re looking to impress a senior developer, you’re going to sell on technical complexity and tools the employer uses.
+                                
+                                If you’re looking to impress the end-client, you’re going to sell business results: web traffic, site conversions, etc.</p>
+                            <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#project1Modal">
+                            View Details
+                        </button>
+                        </div>
+                    </div>
+                </div>
+             <!-- Project 1 Modal -->
+             <div class="modal fade" id="project1Modal" tabindex="-1" aria-labelledby="project1ModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="project1ModalLabel">Project 1</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Here you can give a detailed description of the project, what technologies were used, challenges faced, and the outcomes.</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <a href="#" class="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="Img/peoject/project-2.jpeg" alt="Screenshot of Project 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Project 2</h5>
+                            <p class="card-text">You’re not going to like this answer: to a company building tic-tack-toe games, then they’re going to be most interested in people who’ve spent some time writing tic-tack-toe games. DUH!
+
+                                When I was in college, I had a mentor who suggested I write a paper and submit it to a local ACM conference the fall of my Senior year as a Student Entry. I figured, what the heck … so I did. There was one other student entry, from a PhD candidate at another school. (I was an undergrad.) They were hoping for a bunch of them so they could make an award, but they didn’t think it was fair with an undergrad vs. a PhD candidate, so they gave us both Honorable Mentions.
+                                ”</p>
+                               <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#project1Modal">
+                            View Details
+                        </button>
+                        </div>
+                    </div>
+                </div>
+ <!-- Project 2 Modal -->
+ <div class="modal fade" id="project1Modal" tabindex="-1" aria-labelledby="project1ModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="project1ModalLabel">Project 2</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Here you can give a detailed description of the project, what technologies were used, challenges faced, and the outcomes.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <a href="#" class="btn btn-primary">View Project</a>
+            </div>
+        </div>
+    </div>
+</div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="Img/peoject/project-3.jpeg" alt="Screenshot of Project 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Project 3</h5>
+                            <p class="card-text">When describing a website on your resume, briefly explain its purpose, your role in its development, and any notable achievements or metrics, such as user engagement or traffic growth. Mention specific technologies used (e.g., HTML, CSS, JavaScript) and highlight any design or functionality elements you contributed to. This concise description will give potential employers a clear understanding of your skills and the impact of your work. For more tips on showcasing digital projects, check out my Quora Profile!
+
+                            </p>
+                               <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#project1Modal">
+                            View Details
+                        </button>
+                        </div>
+                    </div>
+                </div>
+             <!-- Project 3 Modal -->
+             <div class="modal fade" id="project1Modal" tabindex="-1" aria-labelledby="project1ModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="project1ModalLabel">Project 3</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Here you can give a detailed description of the project, what technologies were used, challenges faced, and the outcomes.</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <a href="#" class="btn btn-primary">View Project</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 bg-dark text-white">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form id="contactForm">
+                <div class="mb-3">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="name" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea class="form-control" id="message" rows="3" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-light text-center py-3">
+        <p>&copy; 2024 My Portfolio</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+
+</body>
+</html>
